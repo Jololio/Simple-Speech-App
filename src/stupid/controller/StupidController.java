@@ -23,7 +23,7 @@ public class StupidController
 	private void askQuestions()
 	{
 		System.out.println("What is your name?");
-		String userInput = readKeyboardInput.nextLine();
+		String userInput = readKeyboardInput.next();
 		System.out.println("Hello there, " + userInput + "!");
 	}
 
