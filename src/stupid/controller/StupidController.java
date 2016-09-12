@@ -56,6 +56,14 @@ public class StupidController
 		System.out.println("What's your favorite activity?");
 		String activityInput = readKeyboardInput.nextLine();
 		System.out.println(activityInput + " sounds pretty fun actually.");
+		
+		System.out.println("What's your dad's name?");
+		String dadInput = readKeyboardInput.nextLine();
+		System.out.println(dadInput + " is a pretty sick name to be honest.");
+		
+		System.out.println("What is your weight?");
+		double weightInput = readKeyboardInput.nextDouble();
+		System.out.println("Yeah I wish I weighed " + weightInput);
 	}
 
 }
