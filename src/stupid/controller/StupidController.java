@@ -35,11 +35,11 @@ public class StupidController
 		System.out.println("How old are you?");
 		int otherInput = readKeyboardInput.nextInt();
 		System.out.println("Wow, you're " + otherInput + "? That's cool!");
+		readKeyboardInput.nextLine();
 		
 		System.out.println("What grade are you in?");
-		double moreInput = readKeyboardInput.nextDouble();
+		String moreInput = readKeyboardInput.nextLine();
 		System.out.println("Wow, I didn't kndow you were in the " + moreInput + " grade.");
-		readKeyboardInput.nextLine();
 		
 		System.out.println("What kind of Pet do you have?");
 		String sickInput = readKeyboardInput.nextLine();
