@@ -1,3 +1,4 @@
+
 package stupid.controller;
 
 import java.util.Scanner;
